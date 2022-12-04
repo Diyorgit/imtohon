@@ -1,0 +1,49 @@
+.sellers__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.sellers__top-left {
+    display: flex;
+    align-items: center;
+}
+
+.sellers__span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 31px;
+    color: #000000;
+    margin-right: 8px;
+}
+
+.sellers__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #003459;
+}
+
+.sellers__btn {
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #003459;
+    border-radius: 57px;
+    padding: 12px 28px 12px 28px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #003459;
+}
+.sellers__bottom{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:1000px) {
+    .sellers{
+        display: none;
+    }
+}
